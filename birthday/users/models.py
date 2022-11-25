@@ -9,7 +9,7 @@ class CustomUser(models.Model):
     first_name = models.CharField('first name', max_length=30, blank=True)
     last_name = models.CharField('last name', max_length=30, blank=True)
     birthday = models.DateField('birthday', blank=True)
-    email = models.EmailField("email address", blank=True, unique=True)
+    email = models.EmailField("email address", blank=True)
 
     class Meta:
         ordering = ("id",)

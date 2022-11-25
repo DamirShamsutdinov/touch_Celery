@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.core.exceptions import ValidationError
-from django.forms import ModelForm, TextInput, DateInput, EmailInput
-from django.shortcuts import redirect
+from django.forms import DateInput, EmailInput, ModelForm, TextInput
 
 from users.models import CustomUser
 
