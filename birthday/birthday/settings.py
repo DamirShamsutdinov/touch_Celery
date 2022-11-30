@@ -105,8 +105,8 @@ STATIC_URL = '/static/'
 
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 2525
-EMAIL_HOST_USER = "damirshd@bk.ru"
-EMAIL_HOST_PASSWORD = "4ui7Lutf9bYJme4GMwVX"
+EMAIL_HOST_USER = "xxx@bk.ru"
+EMAIL_HOST_PASSWORD = "xxxxxxxxxxxxxxx"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 SERVER_EMAIL = EMAIL_HOST_USER
